@@ -7,8 +7,8 @@
 #define LED_PIN 12         // Pino do LED
 #define BUTTON1_PIN 5      // Pino do botão 1
 #define BUTTON2_PIN 6      // Pino do botão 2
-#define WIFI_SSID "WIFI"  // Substitua pelo nome da sua rede Wi-Fi
-#define WIFI_PASS "102030405060" // Substitua pela senha da sua rede Wi-Fi
+#define WIFI_SSID "NomeDaRedeWiFi"  // Substitua pelo nome da sua rede Wi-Fi
+#define WIFI_PASS "SenhaDaRedeWiFi" // Substitua pela senha da sua rede Wi-Fi
 
 // Estado dos botões (inicialmente sem mensagens)
 char button1_message[50] = "Nenhum evento no botão 1";
