@@ -8,7 +8,7 @@
 
 // Definição do número de LEDs e pino.
 #define LED_COUNT 25
-#define LED_PIN 7
+#define LED_PIN 7 // Verifique se o pino 7 está disponível no Pico W
 
 // Definição de pixel GRB
 struct pixel_t {
@@ -82,7 +82,6 @@ void npWrite() {
 }
 
 int main() {
-
   // Inicializa entradas e saídas.
   stdio_init_all();
 
@@ -91,7 +90,6 @@ int main() {
   npClear();
 
   // Aqui, você desenha nos LEDs.
-
   npWrite(); // Escreve os dados nos LEDs.
 
   // Não faz mais nada. Loop infinito.

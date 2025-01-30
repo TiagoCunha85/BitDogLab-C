@@ -4,9 +4,15 @@
 #include <string.h>
 #include <stdio.h>
 
+<<<<<<< HEAD
 #define LED_PIN_R 12
 #define LED_PIN_G 13
 #define LED_PIN_B 14
+=======
+#define LED_PIN 12          // Define o pino do LED
+#define WIFI_SSID "ap"  // Substitua pelo nome da sua rede Wi-Fi
+#define WIFI_PASS "1020304050" // Substitua pela senha da sua rede Wi-Fi
+>>>>>>> 53d5e9af5fac6483ff504718b14646709f4d996c
 
 #define WIFI_SSID "ap"
 #define WIFI_PASS "12345678"
