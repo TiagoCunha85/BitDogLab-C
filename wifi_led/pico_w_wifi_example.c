@@ -6,7 +6,7 @@
 
 #define LED_PIN 12          // Define o pino do LED
 #define WIFI_SSID "ap"  // Substitua pelo nome da sua rede Wi-Fi
-#define WIFI_PASS "1020304050" // Substitua pela senha da sua rede Wi-Fi
+#define WIFI_PASS "12346578" // Substitua pela senha da sua rede Wi-Fi
 
 // Buffer para respostas HTTP
 #define HTTP_RESPONSE "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n" \

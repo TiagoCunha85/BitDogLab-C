@@ -20,7 +20,7 @@ void pwm_init_buzzer(uint pin) {
 
     // Configurar o PWM com frequência desejada
     pwm_config config = pwm_get_default_config();
-    pwm_config_set_clkdiv(&config, clock_get_hz(clk_sys) / (BUZZER_FREQUENCY * 4096)); // Divisor de clock
+    pwm_config_set_clkdiv(&config, clock_get_hz(clk_sys) / (BUZZER_FREQUENCY * 2048)); // Divisor de clock
     pwm_init(slice_num, &config, true);
 
     // Iniciar o PWM no nível baixo
